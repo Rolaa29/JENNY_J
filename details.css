@@ -158,6 +158,7 @@
 
 /* elm */
 .elm {
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -165,6 +166,7 @@
 
 /* golden */
 .golden {
+  width: 35%;
   text-align: center;
   padding: 20px;
   background-color: #bdac988b;
@@ -281,12 +283,20 @@
 
   .elm {
     flex-direction: column;
-    padding: 0 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 0px 10px;
   }
 
   .flower img {
-    width: 370px;
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
     /* border-radius: 1rem; */
+  }
+  .flower{
+
   }
 
   .golden h3 {
@@ -295,7 +305,10 @@
   }
 
   .golden {
+    width: 89.5%;
     margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .Inn {
@@ -312,11 +325,11 @@
   }
   .mir h3{
     margin-top: 0;
-  }
-
-  .mir h3 {
     padding-top: 80px 0 ;
     padding-bottom: 80px;
+  }
+  .mir{
+    width: 89.5%;
   }
 
   .it p {
