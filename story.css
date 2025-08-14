@@ -1,0 +1,144 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdac98;
+    padding: 10px;
+}
+/* logo */
+.logo{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+/* links */
+.links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+.links a{
+    color: #ffffff;
+}
+/* image */
+.image{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* image img */
+.image img{
+width: 100%;
+height: 100vh;
+margin-top: 90px;
+border-radius: 1.5rem;
+transform: skewY(-5deg) scaleX(1.1);
+}
+/* text */
+.text{
+    margin-top: 30px;
+    text-align: center;
+}
+/* words */
+.words{
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 40px;
+}
+/* word */
+.word{
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 40px;
+}
+/* contain */
+.contain{
+    width: 400px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.contain img{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container img{
+    width: 100%;
+    height: 70vh;
+}
+.end{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px ;
+}
+.part{
+    margin-top: 30px;
+}
+.button{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #bdac98;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 1px #bdac98;
+}
+.button a{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.ends{
+    text-align: center;
+    background-color: #bdac98;
+    margin-top: 40px;
+    padding: 40px;
+}
+.reg{
+    margin-bottom: 30px;
+}
+@media (max-width:768px) {
+    .navbar{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image{
+          margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+    }
+    .image img{
+        width: 380px;
+        height: 50vh;
+        padding: 0px 20px;
+    }
+    .words{
+        padding: 0 10px;
+    }
+    .word{
+        padding: 0 10px;
+    }
+    .end{
+        padding: 0 10px;
+    }
+}

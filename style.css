@@ -1,0 +1,191 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* hold */
+.hold {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #bdac98;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* list */
+.list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+}
+
+.list a {
+  color: #ffffff;
+}
+
+/*  logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* name*/
+.name {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.name h1 {
+  font-size: 80px;
+  letter-spacing: 20px;
+  /* margin-bottom: 30px; */
+}
+
+/* image  */
+.image {
+  text-align: center;
+  background-image: url(/images/Wordings.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #ffffff;
+  font-size: 20px;
+  /* line-height: 20px; */
+}
+
+/* contentcards */
+.contentcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagecont {
+  position: relative;
+  width: 400px;
+}
+
+.imagecont img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 1.5rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.text-overlay a {
+  color: #ffffff;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.cotainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images {
+  position: relative;
+  width: 400px;
+}
+
+.images img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 1.5rem;
+}
+
+/* Another section */
+/* it*/
+.it {
+  text-align: center;
+  /* margin-top: 0px; */
+  /* letter-spacing: 2px; */
+  background-image: url(/images/registry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0px;
+  color: #ffffff;
+}
+
+/* button class */
+.they {
+  margin-top: 20px;
+  background-color: green;
+  padding: 20px;
+  border: 1px solid green;
+  border-radius: 2rem;
+}
+
+/* button link */
+.they a {
+  text-decoration: none;
+  color: white;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+/* footer */
+.end {
+  position: relative;
+  text-align: center;
+  background-color: #bdac98;
+  padding: 40px;
+}
+
+/* hover */
+.container:hover {
+  background-color: black;
+}
+
+/* reg */
+.reg {
+  margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+  .hold {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .name h1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .image p{
+    font-size: 15px;
+  }
+  .cotainer{
+    flex-direction: column;
+  }
+  .imagecont{
+    padding: 0px 20px;
+  }
+  .images{
+    padding: 0px 20px;
+  }
+  
+}
