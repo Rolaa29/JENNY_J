@@ -283,16 +283,11 @@
 
   .elm {
     flex-direction: column;
-    margin-right: auto;
-    margin-left: auto;
-
     padding: 0px 10px;
   }
 
   .flower img {
     width: 355px;
-    margin-left: auto;
-    margin-right: auto;
     /* border-radius: 1rem; */
   }
   .flower{
@@ -307,8 +302,6 @@
   .golden {
     width: 89.5%;
     margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .Inn {
